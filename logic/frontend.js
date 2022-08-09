@@ -13,6 +13,7 @@ function onCalculateNumberOfFlights() {
     } catch (error) {
         document.getElementById('flights').innerHTML = error; 
     } 
+    console.log(finally)
 }
 
 function onCalculateTotalFinalPrice(object) {
