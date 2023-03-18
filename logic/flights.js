@@ -37,7 +37,9 @@ function Flights() {
         }
 
     }
-    return {calculateNumberOfFlights, checkAircraftRevision}; 
+    return {calculateNumberOfFlights, checkAircraftRevision};
+
+
 };
 
 module.exports = Flights();
